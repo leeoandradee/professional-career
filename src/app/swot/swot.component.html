@@ -1,0 +1,36 @@
+<div class="container-line">
+    <div id="strengths" class="element-container">
+        <div class="element-item">
+            <p class="element-p">S</p>
+        </div>
+        <div class="element-description">
+            <p *ngFor="let item of strengths">{{item}}</p>
+        </div>
+    </div>
+    <div id="weakness" class="element-container">
+        <div class="element-item">
+            <p class="element-p">W</p>
+        </div>
+        <div class="element-description">
+            <p *ngFor="let item of weakness">{{item}}</p>
+        </div>
+    </div>
+</div>
+<div class="container-line">
+    <div id="opportunities" class="element-container">
+        <div class="element-item">
+            <p class="element-p">O</p>
+        </div>
+        <div class="element-description">
+            <p *ngFor="let item of opportunities">{{item}}</p>
+        </div>
+    </div>
+    <div id="threats" class="element-container">
+        <div class="element-item">
+            <p class="element-p">T</p>
+        </div>
+        <div class="element-description">
+            <p *ngFor="let item of threats">{{item}}</p>
+        </div>
+    </div>
+</div>

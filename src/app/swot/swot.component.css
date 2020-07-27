@@ -1,0 +1,37 @@
+#strengths {
+    background-color: #1bb7d0;
+}
+
+#weakness {
+    background-color: #8c9937;
+}
+
+#opportunities {
+    background-color: #f89800;
+}
+
+#threats {
+    background-color: #e53851;
+}
+
+.element-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-line {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    font-size: 1rem;
+    color: white;
+}
+
+.element-p {
+    font-size: 3rem;
+}
