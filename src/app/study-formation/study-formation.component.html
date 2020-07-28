@@ -1,0 +1,8 @@
+<h2>Formação</h2>
+<div *ngFor="let curso of cursos; let i = index">
+    <div class="study-line">
+        <span class="icon-study"></span>
+        <p>{{curso.ano}} - {{curso.nome}} - {{curso.escola}}</p>
+    </div>
+    <span class="line-study" *ngIf="i < cursos.length - 1"></span>
+</div>

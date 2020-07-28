@@ -1,37 +1,104 @@
-#strengths {
-    background-color: #1bb7d0;
+@media only screen and (max-width: 600px) {
+    #strengths {
+        background-color: #1bb7d0;
+    }
+
+    #weakness {
+        background-color: #8c9937;
+    }
+
+    #opportunities {
+        background-color: #f89800;
+    }
+
+    #threats {
+        background-color: #e53851;
+    }
+
+    .element-container {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-line {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    p {
+        font-size: 1rem;
+        color: white;
+        word-break: break-all;
+    }
+
+    .element-p {
+        font-size: 3rem;
+    }
+
+    .element-item {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .element-description {
+        width: 70%;
+    }
 }
 
-#weakness {
-    background-color: #8c9937;
-}
+@media only screen and (min-width: 600px) {
 
-#opportunities {
-    background-color: #f89800;
-}
+    #strengths {
+        background-color: #1bb7d0;
+    }
 
-#threats {
-    background-color: #e53851;
-}
+    #weakness {
+        background-color: #8c9937;
+    }
 
-.element-container {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-}
+    #opportunities {
+        background-color: #f89800;
+    }
 
-.container-line {
-    display: flex;
-    flex-direction: row;
-}
+    #threats {
+        background-color: #e53851;
+    }
 
-p {
-    font-size: 1rem;
-    color: white;
-}
+    .element-container {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
 
-.element-p {
-    font-size: 3rem;
+    .container-line {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: white;
+        word-break: break-all;
+    }
+
+    .element-p {
+        font-size: 5rem;
+    }
+
+    .element-item {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .element-description {
+        width: 70%;
+    }
 }

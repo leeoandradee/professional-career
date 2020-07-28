@@ -9,8 +9,8 @@ export class SwotComponent implements OnInit {
 
   constructor() { }
 
-  strengths = ['Conhecimento mobile', 'Conhecimento de processos de release'];
-  weakness = ['Conhecimento mais a fundo de tecnologia'];
+  strengths = ['Conhecimento mobile', 'Conhecimento de processos de release', 'Conhecimento do backend'];
+  weakness = ['Conhecimento mais técnico do Angular', 'Conhecimento mais técnico de tecnologias nativas'];
   opportunities = ['Migração da dashboard de crédito', 'Mapeamento do SuperApp', 'Começar uma pós graduação'];
   threats = [''];
 

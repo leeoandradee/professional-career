@@ -1,0 +1,34 @@
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aligned-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .main-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aligned-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        border-left: solid 1px grey;
+        border-right: solid 1px grey;
+        padding: 4rem;
+    }
+}
+
